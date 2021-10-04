@@ -29,5 +29,14 @@ jobs:
     - name: Codecov
       uses: codecov/codecov-action@v2.1.0
       with: 
-        file: ./HomeWork1/coverage.xml
-   
+        file: ./coverage.xml
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          file: ./coverage.xml
+          flags: tests
+          name: codecov-umbrella
+          yml: ./dotnet.yml
+          fail_ci_if_error: true
+
