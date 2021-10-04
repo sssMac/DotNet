@@ -37,5 +37,5 @@ jobs:
           file: ./coverage.xml
           flags: tests
           name: codecov-umbrella
-          yml: ./dotnet.yml
+          yml: ./dotne.yml
           fail_ci_if_error: true
