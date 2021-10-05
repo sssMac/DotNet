@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Codecov" Version="1.13.0" />
+      <ProjectReference Include="..\HomeWork2\HomeWork2.ilproj" />
     </ItemGroup>
 
 </Project>

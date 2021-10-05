@@ -5,7 +5,7 @@ namespace HomeWork1
 {
     static public class Parser
     {
-        private static readonly string[] SupportedOperations = {
+        public static readonly string[] SupportedOperations = {
             "+",
             "-",
             "*",
