@@ -1,38 +1,3 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@sssMac
-LipatovAlexander /
-Homework-.NET
-Public
-
-1
-0
-
-    0
-
-Code
-Issues
-Pull requests 1
-Actions
-Projects
-Wiki
-Security
-
-    Insights
-
-Homework-.NET/.gitignore
-@LipatovAlexander
-LipatovAlexander add idea files to gitignore
-Latest commit ad8955f 21 days ago
-History
-1 contributor
-385 lines (311 sloc) 6.45 KB
-# Common IntelliJ Platform excludes
-
 # User specific
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
