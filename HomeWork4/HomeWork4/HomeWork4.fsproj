@@ -13,4 +13,8 @@
         <Compile Include="Program.fs" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Codecov" Version="1.13.0" />
+    </ItemGroup>
+
 </Project>
