@@ -7,11 +7,7 @@
     <projectFile profileName="HomeWork4">HomeWork4/HomeWork4.fsproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e87957-f398-4245-844d-d19c41776b71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../HomeWork5/HomeWork5/Parser.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork4/HomeWork4.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork4/HomeWork4.fsproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HomeWork4Test/HomeWork4Test.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/HomeWork4Test/HomeWork4Test.fsproj" afterDir="false" />
-    </list>
+    <list default="true" id="b4e87957-f398-4245-844d-d19c41776b71" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +140,7 @@
       <updated>1633971725393</updated>
       <workItem from="1633971744344" duration="17583000" />
       <workItem from="1634007058190" duration="643000" />
-      <workItem from="1634598572381" duration="4633000" />
+      <workItem from="1634598572381" duration="5375000" />
     </task>
     <servers />
   </component>
