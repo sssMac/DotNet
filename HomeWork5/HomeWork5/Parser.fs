@@ -1,6 +1,5 @@
 ﻿module HomeWork5.Parser
 
-<<<<<<< HEAD
 
 type Res<'a> =
 | Success of 'a
@@ -32,5 +31,3 @@ let TryParseOperation (arg : string) =
             | _ -> Failure "Invalid operation"
         parseOp arg 
     
-=======
->>>>>>> 237b1a204b82e93c09ee822a18284fb4a28bfba8
