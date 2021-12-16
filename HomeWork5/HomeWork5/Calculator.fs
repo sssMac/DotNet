@@ -2,15 +2,10 @@
 
 open Parser
 
-    let Calculate (arg1 : decimal) operation (arg2 : decimal) =
-        if arg2 = (decimal) 0 && operation = "/"
-            then Failure "You can't divide by zero"
-        else
-            let res = 
-                match operation with
-                | "+" -> arg1 + arg2
-                | "-" -> arg1 - arg2
-                | "*" -> arg1 * arg2
-                | "/" -> arg1 / arg2
-            Success res
+let Calculate (arg1:decimal,operation:Operation,arg2:decimal) =
+    match operation with
+    | Operation.Add -> arg1 + arg2
+    | Operation.Subtract -> arg1 - arg2
+    | Operation.Divide -> arg1 / arg2
+    | Operation.Multiply -> arg1 * arg2
         

@@ -1,6 +1,6 @@
 ﻿namespace HomeWork5
 
-open System
+
 open Parser
 open Calculator
 
@@ -8,15 +8,13 @@ module Program =
    
     [<EntryPoint>]
     let main argv =
-        let calculate = res {
-                      let! val1 = TryParseArguments argv.[0]
-                      let! op = TryParseOperation argv.[1]
-                      let! val2 = TryParseArguments argv.[2]
-                      let! calculate = Calculate val1 op val2
-                      return! calculate
+        let result = maybeBuilder{
+            let! Parsed = Parser.Parse argv
+            let res = Calculator.Calculate Parsed
+            return res
         }
-        match calculate with
-        | Success result -> printf $"{calculate}"
-        | Failure error -> printf $"{error}"
-        0
-        
+        match result with
+        | Ok b ->
+            printf $"{b}"
+            0
+        | Error error -> int error
