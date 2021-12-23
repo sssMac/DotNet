@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Giraffe11", "Giraffe11\Giraffe11.fsproj", "{42F6E3AA-0893-4FC3-B5F3-45DDCC94A294}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42F6E3AA-0893-4FC3-B5F3-45DDCC94A294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F6E3AA-0893-4FC3-B5F3-45DDCC94A294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F6E3AA-0893-4FC3-B5F3-45DDCC94A294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F6E3AA-0893-4FC3-B5F3-45DDCC94A294}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
