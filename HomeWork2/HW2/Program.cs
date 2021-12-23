@@ -1,8 +1,9 @@
 ﻿using System;
+using HomeWork2;
 
-namespace HomeWork1
+namespace HW2
 {
-    public static class Program
+    class Program
     {
         static public int Main(string[] args)
         {
