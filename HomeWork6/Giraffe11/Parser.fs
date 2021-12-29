@@ -1,5 +1,6 @@
 module Giraffe11.Parser
 
+
 open Input;
 
 type CalculatorOperation =
@@ -15,4 +16,5 @@ let TryParseOperationInput (problem:Input) =
     | "Minus" -> Ok CalculatorOperation.Minus
     | "Divide" -> Ok CalculatorOperation.Divide
     | _ -> Error "Wrong operation."  
+
 

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HomeWork5", "HomeWork5\HomeWork5.fsproj", "{D594C22E-DD16-4A0F-85B9-442270EC4FA1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HomeWork5Test", "HomeWork5Test\HomeWork5Test.fsproj", "{59F8BE19-327A-43FF-8455-0CD10C95E33E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D594C22E-DD16-4A0F-85B9-442270EC4FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D594C22E-DD16-4A0F-85B9-442270EC4FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D594C22E-DD16-4A0F-85B9-442270EC4FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D594C22E-DD16-4A0F-85B9-442270EC4FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F8BE19-327A-43FF-8455-0CD10C95E33E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F8BE19-327A-43FF-8455-0CD10C95E33E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F8BE19-327A-43FF-8455-0CD10C95E33E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F8BE19-327A-43FF-8455-0CD10C95E33E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
