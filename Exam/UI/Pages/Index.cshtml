@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<h2>Список пользователей</h2>
+   <form name="userForm">
+       <input type="hidden" name="id" value="0" />
+       <div class="mb-3">
+           <label class="form-label" for="name">Имя:</label>
+           <input class="form-control" name="name" />
+       </div>
+       <button id="btn"></button>
+   </form>
+   <table class="table table-condensed table-striped table-bordered">
+       <thead><tr><th>Имя</th><th>возраст</th><th></th></tr></thead>
+       <tbody>
+       </tbody>
+   </table>
+
+@section Scripts{
+<script>
+
+         async function getUsers() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("https://localhost:7127/Monsters", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const users = await response.json();
+                const rows = document.querySelector("tbody");
+                // добавляем полученные элементы в таблицу
+                users.forEach(user => rows.append(user.monsterName));
+            }
+         }
+
+         getUsers()
+</script>
+}
